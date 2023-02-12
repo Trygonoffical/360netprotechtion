@@ -520,6 +520,19 @@ h3 {
     padding-top: 100px !important;
 }
 
+@media screen and (max-width: 699px) {
+    .footerarea .callbox{
+        flex-direction: column;  
+    }
+    .footerarea .callbox a{
+        margin-bottom: 10px; 
+        justify-content: center;
+    }
+    .lowerlinks{
+        flex-direction: column;
+    }
+  }
+
 .Subscribeform::placeholder {
     color: rgb(255, 255, 255);
     opacity: 1;
